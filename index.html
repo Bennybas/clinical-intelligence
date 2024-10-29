@@ -393,8 +393,8 @@
             padding: 8px 16px;
             border-radius: 6px;
             margin-right: 8px;
-            margin-top: -10px;
-            margin-bottom: 10px;
+            margin-top: -2px;
+            margin-bottom: 6px;
             cursor: pointer;
             font-size: 0.875rem;
             color: #334155;
@@ -430,9 +430,10 @@
         .phase-badge {
             display: inline-flex;
             align-items: center;
+            margin-left: 5px;
             padding: 6px 12px;
             border-radius: 6px;
-            background: #dbeafe;
+            background: #f9f9f9;
             color: #1e40af;
             font-size: 0.875rem;
             font-weight: 500;
@@ -910,7 +911,7 @@
                             <th>Drug Name</th>
                             <th>Company</th>
                             <th>Trial Count</th>
-                            <th>Trial IDs</th>
+                            <th>Trial IDs and Phase</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -925,25 +926,23 @@
                             <td class="company-cell">Novartis</td>
                             <td><span class="phase-badge">2</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT05156281">NCT05156281</button>
-                                <button class="trial-button" data-trial="NCT05147220">NCT05147220</button>
+                                <button class="trial-button" data-trial="NCT05156281">NCT05156281<span class="phase-badge">Phase - III</span></button>
+                                <button class="trial-button" data-trial="NCT05147220">NCT05147220<span class="phase-badge">Phase - III</span></button>
                             </td>
                         </tr>
                         
                         <tr id="remibrutinib-insights" class="drug-insights">
                             <td colspan="4">
                                 <div class="insights-container">
-                                    <!-- <div class="insights-section">
-                                        <h4>Latest Trial Results</h4>
-                                        <p>Will be Updated</p>
-                                    </div> -->
                                     <div class="insights-section">
                                         <h4>KOL Opinion</h4>
-                                        <p>Leading experts in dermatology have voiced strong support for remibrutinib as a promising oral treatment for CSU. Martin Metz, a professor of dermatology, emphasized the importance of remibrutinib due to its ability to block the BTK cascade, reducing histamine release, which is critical in managing CSU symptoms. He noted that remibrutinib could become a valuable option for patients struggling with uncontrolled symptoms despite conventional treatments</p>
+                                        <p><li>Recent advancements in multiple sclerosis (MS) research have garnered attention from key opinion leaders, with an emphasis on the need for diverse treatment approaches beyond conventional Disease-Modifying Therapies (DMTs). </li>
+                                        <li>Experts highlight the importance of early intervention, noting that combining different therapies—such as aryl hydrocarbon receptor modulators—could enhance immune tolerance and potentially improve outcomes for MS patients. These insights align with an increasing demand for personalized MS treatments that address varied patient needs and conditions, offering a potential leap in long-term symptom management</li></p>
                                     </div>
                                     <div class="insights-section">
                                         <h4>Regulatory Information</h4>
-                                        <p>Novartis is preparing regulatory filings for remibrutinib in the treatment of CSU in the second half of 2024. These submissions are expected to take place globally, based on the strong 52-week trial results. This filing is critical as Novartis seeks to position remibrutinib as a successor to Xolair (omalizumab), which is nearing patent expiration</p>
+                                        <p><li>Novartis is preparing to submit regulatory filings for remibrutinib as a treatment for Multiple Sclerosis in the second half of 2024. This comes on the heels of encouraging results from recent clinical trials that demonstrated remibrutinib's effectiveness in managing MS symptoms. </li>
+                                        <li>The company aims to position remibrutinib as a key player in the evolving landscape of MS therapies, especially as it looks to replace older treatments nearing patent expiration.</li></p>
                                     </div>
                                 </div>
                             </td>
@@ -954,8 +953,8 @@
                             <td colspan="4">
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT05156281</h4>
-                                    <p>Trial Phase: Phase II</p>
-                                    <p>While the trial completion date for this study is projected to be in 2030, remibrutinib has already shown promising results in other conditions such as chronic spontaneous urticaria (CSU). Phase III trials of remibrutinib for CSU have met primary endpoints, showing rapid symptom control and a favorable safety profile. These findings suggest potential efficacy for its use in RMS, as remibrutinib continues to demonstrate sustained symptom relief and safety across several immune-mediated diseases
+                                    <p>Trial Phase: Phase III</p>
+                                    <p>The Phase 3 trial NCT05156281, led by Novartis, is evaluating remibrutinib's efficacy in reducing relapse rates and disability progression in relapsing multiple sclerosis (MS), comparing it to teriflunomide over two years. Interim findings show remibrutinib has a favorable safety profile across autoimmune conditions, reinforcing its promise for MS. The trial is currently recruiting participants and will track MRI changes, neurofilament levels, and physical function as secondary outcomes​
                                     </p>
                                 </div>
                             </td>
@@ -965,7 +964,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT05147220</h4>
                                     <p>Trial Phase: Phase III</p>
-                                    <p>The phase III trials, REMIX-1 and REMIX-2, have confirmed the long-term efficacy and safety of remibrutinib for treating chronic spontaneous urticaria (CSU). After 52 weeks, nearly half of the patients treated with remibrutinib were completely free of symptoms like hives and itching (UAS7 score of zero). These results were seen in patients who had previously been unresponsive to high-dose antihistamines. Remibrutinib showed rapid symptom relief, which was sustained over time. The safety profile remained consistent, with no significant differences in adverse events compared to placebo</p>
+                                    <p>The Phase III trials REMODEL I and II (NCT05147220) are evaluating the efficacy and safety of remibrutinib, a BTK inhibitor, in patients with relapsing multiple sclerosis (MS). These studies aim to compare remibrutinib with teriflunomide, a standard MS treatment, focusing on safety, tolerability, and efficacy across a large patient population. Both trials are being conducted globally with active recruitment in multiple countries, and preliminary discussions highlight remibrutinib’s potential in modulating B-cell-driven inflammation, a critical factor in MS progression​</p>
                                 </div>
                             </td>
                         </tr>
@@ -990,7 +989,7 @@
                             <td class="company-cell">Sanofi</td>
                             <td><span class="phase-badge">1</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT05630547">NCT05630547</button>
+                                <button class="trial-button" data-trial="NCT05630547">NCT05630547 <span class="phase-badge">Phase - II</span></button>
                             </td>
                         </tr>
                         
@@ -1013,11 +1012,13 @@
                             <td colspan="4">
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT05630547</h4>
-                                    <p>Trial Phase: Phase II</p>
-                                    <p>Sanofi has recently halted its Phase 2 trial of Oditrasertib (SAR443820), an investigational RIPK1 inhibitor, for multiple sclerosis (MS) after the trial failed to meet its primary and secondary endpoints. The trial, conducted in collaboration with Denali Therapeutics, aimed to lower neurofilament light chain (NfL) levels, a biomarker for neurodegeneration, in patients with relapsing-remitting, secondary progressive, and primary progressive MS. However, Oditrasertib did not significantly reduce NfL levels compared to the placebo, nor did it meet secondary goals related to brain volume, disability progression, and relapse rates</p>
+                                    <strong>Trial Phase:II</p></strong>
+                                    <p> <li>Sanofi(SAR443820), the study supports advancing SAR443820 into phase II for multiple sclerosis due to its favorable pharmacokinetic profile and high brain penetrance.</li>
+                                    <li>SAR443820 demonstrated strong inhibition of RIPK1, maintaining greater than 80% inhibition in peripheral markers post-dose, indicating substantial target engagement. The drug was well-tolerated in prior phase I trials with no significant safety concerns, showing mild adverse events like dizziness and headache. High levels of RIPK1 inhibition suggest SAR443820’s potential effectiveness in neuroinflammatory conditions, paving the way for further exploration in multiple sclerosis.</li>
+                                    </p>
                                 </div>
                             </td>
-                        </tr>
+                        </tr> 
                         <!-- Drug -3 -->
                         <tr class="drug-row" data-drug="fenebrutinib">
                             <td>
@@ -1029,18 +1030,14 @@
                             <td class="company-cell">Roche</td>
                             <td><span class="phase-badge">3</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT05119569">NCT05119569</button>
-                                <button class="trial-button" data-trial="NCT04586023">NCT04586023</button>
-                                <button class="trial-button" data-trial="NCT04586010">NCT04586010</button>
+                                <button class="trial-button" data-trial="NCT05119569">NCT05119569<span class="phase-badge">Phase - II</span></button>
+                                <button class="trial-button" data-trial="NCT04586023">NCT04586023<span class="phase-badge">Phase - II</span></button>
+                                <button class="trial-button" data-trial="NCT04586010">NCT04586010<span class="phase-badge">Phase - III</span></button>
                             </td>
                         </tr>
                         <tr id="fenebrutinib-insights" class="drug-insights">
                             <td colspan="4">
                                 <div class="insights-container">
-                                    <div class="insights-section">
-                                        <h4>Latest Trial Results</h4>
-                                        <p>Roche's fenebrutinib, an investigational BTK inhibitor, has shown promising results in multiple sclerosis (MS) trials. In the Phase II FENopta study (NCT05119569), fenebrutinib significantly reduced new T1 gadolinium-enhancing lesions and T2-weighted brain lesions, key markers of MS activity, by 90-95% compared to placebo. Furthermore, after a year of treatment, 96% of participants were relapse-free, and 99% had no active inflammatory lesions on MRI scans. The drug also showed no disability progression, as measured by the Expanded Disability Status Scale (EDSS), and had a favorable safety profile, consistent with prior trials</p>
-                                    </div>
                                     <div class="insights-section">
                                         <h4>KOL Opinion</h4>
                                         <p>KOLs have noted fenebrutinib’s potential to reshape MS treatment due to its dual action on B-cells and microglia, which may address both MS disease activity and progression. Dr. Levi Garraway, Roche's Chief Medical Officer, emphasized that fenebrutinib has the potential to suppress nearly all disease activity in people with MS and could become a major player if Phase III results confirm these early findings</p>
@@ -1057,7 +1054,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT05119569</h4>
                                     <p>Trial Phase: Phase II</p>
-                                    <p>Roche's fenebrutinib, an investigational BTK inhibitor, has shown promising results in multiple sclerosis (MS) trials. In the Phase II FENopta study (NCT05119569), fenebrutinib significantly reduced new T1 gadolinium-enhancing lesions and T2-weighted brain lesions, key markers of MS activity, by 90-95% compared to placebo. Furthermore, after a year of treatment, 96% of participants were relapse-free, and 99% had no active inflammatory lesions on MRI scans. The drug also showed no disability progression, as measured by the Expanded Disability Status Scale (EDSS), and had a favorable safety profile, consistent with prior trials</p>
+                                    <p>The Phase II FENopta study (NCT05119569) investigated Roche’s drug fenebrutinib in relapsing MS patients, showing a 69% reduction in new gadolinium-enhancing lesions and a 74% reduction in NET2 lesions compared to placebo over 12 weeks. By Week 12, reductions reached 90% for Gd+ lesions and 95% for NET2 lesions. Mean CSF concentration of fenebrutinib was 43.1 ng/mL, well above active ranges in blood assays, indicating effective central nervous system penetration. The drug demonstrated a favorable safety profile with no serious adverse events reported.</p>
                                 </div>
                             </td>
                         </tr>
@@ -1066,7 +1063,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT04586023</h4>
                                     <p>Trial Phase: Phase II</p>
-                                    <p>Fenebrutinib, a BTK (Bruton’s Tyrosine Kinase) inhibitor, has shown promising results in managing relapsing multiple sclerosis (MS). In Phase 2 trials, it reduced the number of new inflammatory brain lesions by over 90% compared to a placebo. Additionally, it significantly curbed disease activity in participants over 48 weeks, with 96% of patients being relapse-free and 99% showing no new active lesions on MRI scans. This outcome suggests that fenebrutinib is effective in controlling both relapses and disability progression in relapsing forms of MS</p>
+                                    <p>The trial for fenebrutinib (NCT04586023), a selective Bruton’s tyrosine kinase (BTK) inhibitor by Roche, targeted patients with progressive multiple sclerosis (MS). Results from the Phase II study showed positive outcomes, with fenebrutinib achieving the primary endpoint of reducing new gadolinium-enhancing T1 brain lesions, a marker of active inflammation, and the secondary endpoint of reducing T2 brain lesions, which indicate disease burden. No new safety concerns were identified, reinforcing fenebrutinib's established safety profile. These results underscore fenebrutinib's potential as a treatment to address inflammation and disability progression in MS</p>
                                 </div>
                             </td>
                         </tr>
@@ -1075,7 +1072,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT04586010</h4>
                                     <p>Trial Phase: Phase III</p>
-                                    <p>Fenebrutinib has shown promising results in recent clinical studies. In Phase II trials, it demonstrated near-complete suppression of disease activity in relapsing MS. Specifically, 99% of patients were free from T1 gadolinium-enhancing lesions at 48 weeks, indicating minimal inflammation. The drug achieved an annualized relapse rate (ARR) of 0.04 over the trial period, with no significant change in disability measured via the Expanded Disability Status Scale (EDSS). These results suggest strong efficacy in reducing both disease activity and disability progression in relapsing MS</p>
+                                    <p>The clinical trial NCT04586010, known as the FENtrepid study, investigates the efficacy of fenebrutinib in treating primary progressive multiple sclerosis (PPMS). This large, randomized, double-blind trial aims to enroll up to 946 patients, testing fenebrutinib against both placebo and ocrelizumab over 120 weeks. The primary goal is to assess disability progression over a 12-week period, with secondary measures including changes in brain volume and physical impacts reported by participants. Early data shows fenebrutinib’s ability to reduce new inflammatory lesions and suggests it penetrates the brain effectively, targeting key immune cells like B-cells and microglia, which drive inflammation in MS</p>
                                 </div>
                             </td>
                         </tr>
@@ -1090,9 +1087,9 @@
                             <td class="company-cell">Sanofi</td>
                             <td><span class="phase-badge">3</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT03996291">NCT03996291</button>
-                                <button class="trial-button" data-trial="NCT04458051">NCT04458051</button>
-                                <button class="trial-button" data-trial="NCT04411641">NCT04411641</button>
+                                <button class="trial-button" data-trial="NCT03996291">NCT03996291<span class="phase-badge">Phase - III</span></button>
+                                <button class="trial-button" data-trial="NCT04458051">NCT04458051<span class="phase-badge">Phase - III</span></button>
+                                <button class="trial-button" data-trial="NCT04411641">NCT04411641<span class="phase-badge">Phase - III</span></button>
                             </td>
                         </tr>
                         <tr id="tolebrutinib-insights" class="drug-insights">
@@ -1114,7 +1111,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT03996291</h4>
                                     <p>Trial Phase: Phase III</p>
-                                    <p>Tolebrutinib, Sanofi's BTK inhibitor, has shown promising results in clinical trials for multiple sclerosis (MS). In long-term safety data from the phase 2b extension study (NCT03996291), patients with relapsing MS who were treated with tolebrutinib (60 mg daily) for 2.5 years showed stable annualized relapse rates (ARR) and low MRI lesion activity. Over 85% of participants remained on treatment, with common side effects including COVID-19, headache, and upper respiratory tract infections. However, the FDA placed a partial hold on phase 3 trials in 2022 due to liver toxicity concerns</p>
+                                    <p>The open-label extension trial (NCT03996291) of tolebrutinib showed promising results for people with relapsing forms of multiple sclerosis (MS). In this study, tolebrutinib led to significant reductions in relapse rates, stabilized disability progression, and reduced brain lesion counts over time. The trial findings support tolebrutinib's potential as a beneficial oral BTK inhibitor for addressing smoldering neuroinflammation in relapsing MS. Sanofi aims to advance its regulatory plans based on this positive safety and efficacy profile.</p>
                                 </div>
                             </td>
                         </tr>
@@ -1123,9 +1120,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT04458051</h4>
                                     <p>Trial Phase: Phase III</p>
-                                    <p>Tolebrutinib has shown promise in several ongoing trials. Though data specific to PERSEUS has not been fully released, its sister trials like GEMINI and HERCULES have revealed important insights:
-                                        •	In the GEMINI studies, targeting relapsing forms of MS, tolebrutinib did not significantly reduce the annual relapse rate compared to teriflunomide. However, it did show a 29% lower risk of disability progression, which is crucial for addressing the long-term impact of MS
-                                        •	In the HERCULES trial on non-relapsing secondary progressive MS (SPMS), tolebrutinib significantly delayed disability progression by 31% compared to placebo</p>
+                                    <p>The PERSEUS trial is a Phase 3 study evaluating tolebrutinib, Sanofi's BTK inhibitor, in patients with primary progressive multiple sclerosis (PPMS). It aims to determine if tolebrutinib can delay confirmed disability progression compared to a placebo. The trial results, expected in late 2025, will provide additional insights into the drug’s effectiveness in slowing disability progression in PPMS, addressing an unmet need for treatments in progressive MS.</p>
                                 </div>
                             </td>
                         </tr>
@@ -1134,7 +1129,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT04411641</h4>
                                     <p>Trial Phase: Phase III</p>
-                                    <p>The HERCULES trial, a Phase 3 study, evaluated the efficacy of tolebrutinib in patients with non-relapsing secondary progressive multiple sclerosis (nrSPMS). Tolebrutinib demonstrated a 31% delay in the time to 6-month confirmed disability progression (CDP) compared to placebo, meeting its primary endpoint. Additionally, 10% of patients treated with tolebrutinib showed confirmed disability improvement, compared to 5% in the placebo group. These results highlight tolebrutinib’s potential in slowing the progression of disability in nrSPMS, a condition with few treatment options available</p>
+                                    <p>The HERCULES Phase 3 trial evaluated tolebrutinib's effects on disability progression in non-relapsing secondary progressive MS (SPMS). Results showed a 31% reduction in disability progression risk and an 88% improvement in six-month confirmed disability improvement rates for patients on tolebrutinib compared to placebo. Although it reduced brain lesions by 38%, tolebrutinib did not significantly slow brain tissue loss. Safety monitoring was increased due to liver enzyme concerns</p>
                                 </div>
                             </td>
                         </tr>
@@ -1149,7 +1144,7 @@
                             <td class="company-cell">Beijing InnoCare Pharma</td>
                             <td><span class="phase-badge">1</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT04711148">NCT04711148</button>
+                                <button class="trial-button" data-trial="NCT04711148">NCT04711148<span class="phase-badge">Phase - II</span></button>
                             </td>
                         </tr>
                         <tr id="orelabrutinib-insights" class="drug-insights">
@@ -1171,10 +1166,7 @@
                                 <div class="insights-section">
                                     <h4>Trial Information: NCT04711148</h4>
                                     <p>Trial Phase: Phase II</p>
-                                    <p>Efficacy: Interim results from the trial indicate that orelabrutinib significantly reduces the number of new brain lesions associated with RRMS. Specifically, a 12-week analysis showed:
-                                        o	71.1% relative reduction in lesions for those receiving 50 mg once daily.
-                                        o	80.8% reduction for those receiving 50 mg twice daily.
-                                        o	92.1% reduction for patients on the 80 mg once daily dose</p>
+                                    <p>InnoCare Pharma's Phase 2 trial results show that orelabrutinib led to a significant, dose-dependent reduction in new active brain lesions in RRMS patients, with up to a 92.1% reduction in the highest dose group (80 mg daily). This 12-week interim analysis indicates that orelabrutinib met its primary objective, supporting further development. Compared to similar BTK inhibitors, it demonstrated competitive efficacy and a favorable safety profile.</p>
                                 </div>
                             </td>
                         </tr>
@@ -1189,7 +1181,7 @@
                             <td class="company-cell">Biogen</td>
                             <td><span class="phase-badge">1</span></td>
                             <td>
-                                <button class="trial-button" data-trial="NCT05798520">NCT05798520</button>
+                                <button class="trial-button" data-trial="NCT05798520">NCT05798520<span class="phase-badge">Phase - II</span></button>
                             </td>
                         </tr>
                         <tr id="biib091-insights" class="drug-insights">
@@ -1233,24 +1225,25 @@
                     </div>
                     <div class="insight-content">
                         <div class="insight-list">
-                            <div class="insight-item">
-                                <!-- <span class="insight-date">Oct 20, 2024</span> -->
-                                <div class="insight-description">
+                            <!-- <div class="insight-item">
+                                <span class="insight-date">Oct 20, 2024</span> -->
+                                <!-- <div class="insight-description">
                                    <strong>BTK inhibitors are gaining attention as a novel therapeutic approach for MS</strong> 
                                     <br>
                                     <li>BTK inhibitors like evobrutinib, tolebrutinib, and orelabrutinib are emerging as promising therapies for multiple sclerosis. These agents modulate B-cell activity and immune responses across the blood-brain barrier, aiming to address the autoimmune processes underlying MS. Early trials suggest potential in reducing MS-related inflammation and lesion formation.
                                     </li>
                                     
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="insight-item">
                                 <!-- <span class="insight-date">Oct 15, 2024</span> -->
                                 <div class="insight-description">
                                 <strong> Clinical Efficacy: Several BTK inhibitors are undergoing investigation</strong> 
                                     <br>
-                                    <li><span class="insight-date">Evobrutinib (Merck KGaA/EMD Serono): Showed acceptable tolerability and maintained efficacy in a phase 2 study over 2.5 years, although it failed to meet primary endpoints in subsequent phase 3 trials.</span></li>
+                                    <li><span class="insight-date">Evobrutinib (Merck KGaA/EMD Serono): Showed acceptable tolerability and maintained efficacy in a phase 2 study over 2.5 years, although it failed to meet primary endpoints in subsequent phase 3 trials.</span>
                                     <li><span class="insight-date">Fenebrutinib (Roche): Demonstrated significant reductions in MRI markers of MS activity and a favorable safety profile, although it faced safety concerns related to liver function.</span></li>
                                     <li><span class="insight-date">Tolebrutinib (Sanofi): Reported a 60 mg/d dosage reduced T1 gadolinium-enhancing lesions by approximately 85%, with stable Expanded Disability Status Scale (EDSS) scores over time.</span></li>
+                                    <li><span class="insight-date">Orelabrutinib (Beijing InnoCare Pharma): In a Phase 2 trial, Orelabrutinib demonstrated a significant reduction in new active brain lesions by 90% over a 12-week period. This promising result supports further development of Orelabrutinib for MS.</span></li>
                                 </div>
                             </div>
                         </div>
@@ -1272,7 +1265,7 @@
                                 <div class="insight-description">
                                 <strong> Liver Enzyme Elevations</strong> 
                                     <br>
-                                    <li>In the phase 3 HERCULES trial, liver enzyme elevations were noted in tolebrutinib-treated patients, with 4.1% experiencing levels >3x the upper limit of normal (ULN). Most cases resolved without intervention. A serious case resulted in a liver transplant, highlighting the need for stringent monitoring.</li>
+                                    <li>In the phase 3 HERCULES trial(Sanofi), liver enzyme elevations were noted in tolebrutinib-treated patients, with 4.1% experiencing levels >3x the upper limit of normal (ULN). Most cases resolved without intervention. A serious case resulted in a liver transplant, highlighting the need for stringent monitoring.</li>
                                 </div>
                             </div>
                             <div class="insight-item">
@@ -1295,7 +1288,7 @@
                                 <div class="insight-description">
                                 <strong> Long-Term Safety</strong> 
                                     <br>
-                                <li>Tolebrutinib has shown favorable long-term safety in open-label studies. Patients transitioning to a consistent 60 mg dose reported low incidences of new gadolinium-enhancing lesions, suggesting effective control of disease activity</li>
+                                <li>Tolebrutinib(Sanofi) has shown favorable long-term safety in open-label studies. Patients transitioning to a consistent 60 mg dose reported low incidences of new gadolinium-enhancing lesions, suggesting effective control of disease activity</li>
                                     
                                 </div>
                             </div>
@@ -1322,7 +1315,7 @@
                                     <br>
                                     <li>Phase III trials ongoing as of early 2024</li>
                                     <br>
-                                <li>FDA placed partial clinical holds on Phase III trials in 2022 due to liver safety concerns.Hold was partially lifted for some patient populations</li>
+                                <li>FDA placed partial clinical holds on Phase III trials in 2024 due to liver safety concerns.Hold was partially lifted for some patient populations</li>
                                 </div>
                             </div>
                             <div class="insight-item">
@@ -2012,7 +2005,7 @@
                 data: {
                     labels: ['Phase 1', 'Phase 2', 'Phase 3'],
                     datasets: [{
-                        label: 'Number of Drugs',
+                        label: 'Number of Trials',
                         data: [0, 5, 6],
                         backgroundColor: '#4299e1'
                     }]
@@ -2031,26 +2024,38 @@
 
             // Market Share Chart
             const marketCtx = document.getElementById(`${moa}-market-chart`).getContext('2d');
-            new Chart(marketCtx, {
-                type: 'pie',
-                data: {
-                    labels: ['Sanofi', 'Novartis', 'Beijing InnoCare Pharma','Roche','Biogen'],
-                    datasets: [{
-                        data: [36,18,9.5,27,9.5],
-                        backgroundColor: ['#4299e1', '#48bb78', '#ed8936', '#9f7aea', '#f56565']
-                    }]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: 'Market Share Distribution-% (Based on trial count)'
+        new Chart(marketCtx, {
+            type: 'pie',
+            data: {
+                labels: ['Sanofi', 'Novartis', 'Beijing InnoCare Pharma', 'Roche', 'Biogen'],
+                datasets: [{
+                    data: [36, 18, 9.5, 27, 9.5],
+                    backgroundColor: ['#4299e1', '#48bb78', '#ed8936', '#9f7aea', '#f56565']
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Market Share Distribution-% (Based on trial count)'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(tooltipItem) {
+                                const dataset = tooltipItem.dataset;
+                                const total = dataset.data.reduce((acc, value) => acc + value, 0);
+                                const currentValue = dataset.data[tooltipItem.dataIndex];
+                                const percentage = Math.floor((currentValue / total) * 100);
+                                return `${tooltipItem.label}: ${percentage}%`;
+                            }
                         }
                     }
                 }
-            });
+            }
+        });
+
         }
         function toggleInsight(header) {
             const content = header.nextElementSibling;
